@@ -1,0 +1,31 @@
+{
+  "name": "vue-project",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "run-p type-check build-only",
+    "preview": "vite preview --port 4173",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --noEmit",
+    "deploy": "sh deploy.sh"
+
+  },
+  "dependencies": {
+    "simple-keyboard": "^3.4.175",
+    "vue": "^3.2.38",
+    "vue-router": "^4.1.5"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.56",
+    "@vitejs/plugin-vue": "^3.0.3",
+    "@vue/tsconfig": "^0.1.3",
+    "autoprefixer": "^10.4.12",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.18",
+    "raw-loader": "^4.0.2",
+    "tailwindcss": "^3.2.0",
+    "typescript": "~4.7.4",
+    "vite": "^3.1.8",
+    "vue-tsc": "^0.40.7"
+  }
+}
